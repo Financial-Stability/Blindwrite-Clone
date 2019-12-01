@@ -28,6 +28,7 @@
   outline: none;
   padding: 0px;
   margin: 0px;
+  margin-left: 2vw;
 }
 
 #how_long {
@@ -36,14 +37,17 @@
 }
 
 #write_content {
-  width: 70vw;
-  margin: auto;
+  width: 74vw;
+  /* margin: auto; */
+  margin-left: calc(50% - 2vw - 37vw);
+  margin-right: calc(50% + 2vw - 37vw);
   margin-top: -100vh;
 }
 
 #text_input_container {
-  filter: blur(10px);
-  width: 70vw;
+  filter: blur(1vw);
+  width: 74vw;
+  /* overflow: visible; */
 }
 
 #text_input {
@@ -56,6 +60,7 @@
   resize: none;
   text-align: left;
   font-size: 3vw;
+  padding: 2vw;
 }
 
 body {
@@ -81,9 +86,9 @@ div {
 #progressBar {
   margin-top: 2vh;
   margin-bottom: 2vh;
-  margin-left: 0%;
-  margin-right: 0%;
-  width: 99%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: calc(99% - 4vw);
   border-radius: 4vh;
   border: 3px solid #bbb891;
   overflow: hidden;

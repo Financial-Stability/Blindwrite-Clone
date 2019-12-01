@@ -35,7 +35,7 @@ function toggleBlur() {
     isBlurred = false;
     // console.log("toggle");
   } else {
-    blur.style.WebkitFilter = "blur(10px)";
+    blur.style.WebkitFilter = "blur(1vw)";
     button.innerHTML = "BlindWrite";
     isBlurred = true;
     // console.log("toggle");
