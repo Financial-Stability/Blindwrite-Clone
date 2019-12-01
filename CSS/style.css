@@ -62,7 +62,6 @@ body {
   #loadingBar {
     width: 1%;
     height: 30px;
-    background-color: green;
-    outline: 20px;
+    background-color: #BBB891;
     border-radius: 2vh;
   }
