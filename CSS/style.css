@@ -1,17 +1,12 @@
-#name {
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: left;
-    color: #473E3B;
-    /* position: relative; */
-    /* padding-left: 14vw; */
-}
-
 #toggle_blur_button {
     /* margin: 5vw;
     width: 5vw; */
     /* margin-left: 50%; */
     text-align: right;
     /* vertical-align: middle; */
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    color: #473E3B;
 }
 
 #content {

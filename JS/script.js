@@ -24,13 +24,14 @@ function move(time) {
     i = 1;
     var elem = document.getElementById("loadingBar");
     var width = 1;
-    var id = setInterval(frame, 10);
+    var updateSpeed = 10;
+    var id = setInterval(frame, updateSpeed);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
         i = 0;
       } else {
-        width+= 100/time;
+        width+= 100/(time/(updateSpeed));
         elem.style.width = width + "%";
       }
     }
