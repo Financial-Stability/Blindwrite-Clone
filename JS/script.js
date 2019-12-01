@@ -2,7 +2,7 @@
 var next = document.getElementById("write_content");
 var first = document.getElementById("how_long");
 
-firstButton.addEventListener("keyup", moveFirst());
+first.addEventListener("keyup", moveFirst(event));
 
 function moveFirst(event) {
     // var code = (event.keyCode ? event.keyCode : event.which);
