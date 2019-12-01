@@ -6,12 +6,12 @@ var isBlurred = true;
 function toggleBlur() {
     if (isBlurred) {
         blur.style.WebkitFilter = "blur(0px)";
-        button.innerHTML() = "Write";
+        button.innerHTML = "Write";
         isBlurred = false;
         // console.log("toggle");
     } else {
         blur.style.WebkitFilter = "blur(10px)";
-        button.innerHTML() = "BlindWrite";
+        button.innerHTML = "BlindWrite";
         isBlurred = true;
         // console.log("toggle");
     }
