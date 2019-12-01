@@ -16,3 +16,7 @@ function toggleBlur() {
 }
 
 button.onclick = toggleBlur;
+
+// For timer
+
+window.setTimeout

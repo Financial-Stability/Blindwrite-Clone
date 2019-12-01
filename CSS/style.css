@@ -2,7 +2,6 @@
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
     color: #473E3B;
-    width: 54.6vw;
     /* position: relative; */
     /* padding-left: 14vw; */
 }
@@ -10,6 +9,7 @@
 #toggle_blur_button {
     margin: 5vw;
     width: 5vw;
+    text-align: right;
 }
 
 #content {
@@ -46,5 +46,5 @@ body {
 
 .inline {
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
