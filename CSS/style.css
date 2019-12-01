@@ -1,11 +1,11 @@
 #text_input {
     height: 70vh;
     width: 70vw;
-    /* margin: auto; */
     border: none;
     border-color:transparent;
     outline: none;
     resize: none;
+    /* color: red; */
 }
 
 body {
@@ -14,5 +14,7 @@ body {
 }
 
 #text_input_container {
-    margin:auto;
+    margin: auto;
+    /* opacity: 0.5; */
+    filter: blur(10px);
 }
