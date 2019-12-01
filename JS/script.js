@@ -2,16 +2,22 @@
 var next = document.getElementById("write_content");
 var first = document.getElementById("how_long");
 
-first.addEventListener("keyup", moveFirst(event));
-
-function moveFirst(event) {
-    // var code = (event.keyCode ? event.keyCode : event.which);
+first.addEventListener("keyup", moveFirst(event) {
     if (event == 13) {
         next.style.marginTop = "0px";
         // first.style.marginTop = "-100vh";
         first.style.height = "0px";
     }
-}
+});
+
+// function moveFirst(event) {
+//     // var code = (event.keyCode ? event.keyCode : event.which);
+//     if (event == 13) {
+//         next.style.marginTop = "0px";
+//         // first.style.marginTop = "-100vh";
+//         first.style.height = "0px";
+//     }
+// }
 
 // For toggling blur
 var button = document.getElementById("toggle_blur_button");
