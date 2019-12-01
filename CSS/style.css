@@ -26,6 +26,13 @@
   background-color: transparent;
   border-color: transparent;
   outline: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#how_long {
+  width: 70vw;
+  margin: auto;
 }
 
 #write_content {
@@ -34,14 +41,9 @@
   margin-top: -100vh;
 }
 
-#how_long {
-  width: 70vw;
-  margin: auto;
-}
-
 #text_input_container {
-  /* margin-top: 5vh; */
   filter: blur(10px);
+  width: 70vw;
 }
 
 #text_input {
@@ -60,7 +62,10 @@ body {
   background-color: #e5c69c;
   overflow: hidden;
   caret-color: green;
-  /* text-align: center; */
+}
+
+div {
+  overflow: hidden;
 }
 
 ::selection {

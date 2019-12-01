@@ -3,10 +3,13 @@ var next = document.getElementById("write_content");
 var first = document.getElementById("how_long");
 
 first.addEventListener("keyup", function(event) {
-  if (event == 13) {
+  var keyCode = event.which || event.keyCode;
+  if (keyCode == 13) {
     next.style.marginTop = "0px";
     // first.style.marginTop = "-100vh";
     first.style.height = "0px";
+    first.style.pointerEvents = "none";
+    first.style.color = "transparent";
   }
 });
 
