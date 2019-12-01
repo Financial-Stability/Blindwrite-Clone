@@ -2,10 +2,10 @@
 var next = document.getElementById("write_content");
 var firstButton = document.getElementById("time_input");
 
-firstButton.addEventListener("keypress", moveFirst(event.which));
+firstButton.addEventListener("keypress", moveFirst(event));
 
 function moveFirst(key) {
-    if (key == 13)
+    if (key.which == 13)
         ext.style.marginTop = "0px";
     console.log("event");
 }
