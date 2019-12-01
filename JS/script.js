@@ -31,7 +31,7 @@ function move(time) {
         clearInterval(id);
         i = 0;
       } else {
-        width+= 100/(time/(updateSpeed));
+        width += 100/(time*updateSpeed*1000);
         elem.style.width = width + "%";
       }
     }
