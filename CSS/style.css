@@ -2,6 +2,18 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+#how_long {
+  width: 74vw;
+  height: auto;
+  margin: auto;
+}
+
+#time_input_label {
+  display: inline-block;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
 #time_input {
   border: none;
   border-color: transparent;
@@ -9,8 +21,7 @@
   outline: none;
   resize: none;
   text-align: left;
-  margin-top: 5vh;
-  font-size: 8vh;
+  font-size: 6vh;
   width: 110vw;
 }
 
@@ -32,11 +43,6 @@
   margin: 0px;
   margin-left: 2vw;
   /* to hide the incrementer */
-}
-
-#how_long {
-  width: 74vw;
-  margin: auto;
 }
 
 #write_content {
