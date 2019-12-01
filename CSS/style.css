@@ -1,3 +1,7 @@
+#time_input {
+    
+}
+
 #toggle_blur_button {
     /* margin: 5vw;
     width: 5vw; */
@@ -21,7 +25,7 @@
 }
 
 #text_input_container {
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     filter: blur(10px);
 }
 
@@ -55,6 +59,8 @@ body {
 }
 
 #progressBar {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     width: 100%;
     border-radius: 4vh;
     border: 3px solid #BBB891;
