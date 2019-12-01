@@ -1,6 +1,7 @@
 #name {
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
+    color: #85756E;
     /* position: relative; */
     /* padding-left: 15vw; */
 }
@@ -12,7 +13,7 @@
     background-color: transparent;
     outline: none;
     resize: none;
-    padding: 10vh, 10vw;
+    /* padding: 10vh, 10vw; */
     font-size: 3vw;
 }
 
