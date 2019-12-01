@@ -24,7 +24,7 @@ function move(time) {
     i = 1;
     var elem = document.getElementById("loadingBar");
     var width = 1;
-    var updateSpeed = 10;
+    var updateSpeed = 5;
     var id = setInterval(frame, updateSpeed);
     function frame() {
       if (width >= 100) {
