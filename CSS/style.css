@@ -54,7 +54,7 @@ body {
     vertical-align: middle;
 }
 
-#progresBar {
+#progressBar {
     width: 100%;
     background-color: grey;
     outline: 2px dashed blue;
