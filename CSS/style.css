@@ -2,19 +2,22 @@
     height: 70vh;
     width: 70vw;
     border: none;
-    border-color:transparent;
+    border-color: transparent;
+    background-color: transparent;
     outline: none;
     resize: none;
+    font-size: 3vw;
     /* color: red; */
-}
-
-body {
-    overflow: hidden;
-    text-align: center;
 }
 
 #text_input_container {
     margin: auto;
     /* opacity: 0.5; */
     filter: blur(10px);
+}
+
+body {
+    background-color: #E5C69C;
+    overflow: hidden;
+    text-align: center;
 }
