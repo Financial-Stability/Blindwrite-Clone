@@ -50,23 +50,37 @@
 }
 
 #name {
+  font-size: 5vh;
+  margin-bottom: none;
+  margin-top: none;
   margin-left: 2vw;
-  vertical-align: bottom
+  vertical-align: bottom;
+}
+
+input {
+  color: #586F7C;
+}
+
+label {
+  color: #586F7C;
+}
+
+::placeholder {
+  color: #586F7C;
 }
 
 #toggle_blur_button {
   text-align: left;
-  color: #473e3b;
+  color: #586F7C;
   text-decoration: none;
-  font-size: 3vh;
+  height: 5vh;
+  font-size: 5vh;
   border: none;
   background-color: transparent;
   border-color: transparent;
   outline: none;
-  padding: none;
+  padding: 0;
   margin: none;
-  margin-left: 2vw;
-  vertical-align: bottom;
 }
 
 #write_content {
@@ -79,7 +93,6 @@
 #text_input_container {
   filter: blur(1vw);
   width: 74vw;
-  /* overflow: visible; */
 }
 
 #text_input {
@@ -93,12 +106,14 @@
   text-align: left;
   font-size: 3vw;
   padding: 2vw;
+  color: #DCE1DE;
 }
 
 body {
-  background-color: #e5c69c;
+  background-color: #000000;
   overflow: hidden;
-  caret-color: green;
+  caret-color: #DCE1DE;
+  color: #DCE1DE;
 }
 
 div {
@@ -106,8 +121,9 @@ div {
 }
 
 ::selection {
-  color: #85756e;
-  background-color: #a38e87;
+  color: #DCE1DE;
+  opacity: 20%;
+  background-color: #DCE1DE;
 }
 
 .inline {
@@ -122,13 +138,13 @@ div {
   margin-right: 2vw;
   width: calc(99% - 4vw);
   border-radius: 4vh;
-  border: 3px solid #bbb891;
+  border: 1px solid #586F7C;
   overflow: hidden;
 }
 
 #loadingBar {
   width: 0%;
   height: 15px;
-  background-color: #bbb891;
+  background-color: #DCE1DE;
   border-radius: 2vh;
 }

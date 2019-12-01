@@ -13,14 +13,14 @@ first.addEventListener("keyup", function(event) {
     document.getElementById("time_input").focus();
     document.getElementById("name").innerHTML = document.getElementById(
       "topic_input"
-    ).value;
+    ).value+" ";
   }
 });
 
 second.addEventListener("keyup", function(event) {
   var keyCode = event.which || event.keyCode;
   if (keyCode == 13) {
-    third.style.marginTop = "0px";
+    third.style.marginTop = "5vh";
     second.style.height = "0px";
     second.style.pointerEvents = "none";
     second.style.color = "transparent";
