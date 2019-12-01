@@ -2,11 +2,11 @@
 var next = document.getElementById("write_content");
 var first = document.getElementById("how_long");
 
-// firstButton.addEventListener("change", moveFirst());
+firstButton.addEventListener("keyup", moveFirst());
 
-function moveFirst() {
-    var code = (event.keyCode ? event.keyCode : event.which);
-    if (code == 13) {
+function moveFirst(event) {
+    // var code = (event.keyCode ? event.keyCode : event.which);
+    if (event == 13) {
         next.style.marginTop = "0px";
         // first.style.marginTop = "-100vh";
         first.style.height = "0px";
