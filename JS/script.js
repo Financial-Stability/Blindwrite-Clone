@@ -4,7 +4,7 @@ var firstButton = document.getElementById("time_input");
 firstButton.addEventListener("keyup", moveFirst);
 
 function moveFirst() {
-    next.style.marginTop("0px");
+    next.style.marginTop = "0px";
 }
 
 // For toggling blur
