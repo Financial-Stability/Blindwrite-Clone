@@ -6,6 +6,7 @@
   width: 74vw;
   height: auto;
   margin: auto;
+  margin-top: -200%;
 }
 
 #time_input_label {
@@ -25,32 +26,54 @@
   width: 110vw;
 }
 
+#what_topic {
+  width: 74vw;
+  height: auto;
+  margin: auto;
+}
+
+#topic_input_label {
+  display: inline-block;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+#topic_input {
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  text-align: left;
+  font-size: 6vh;
+  width: 110vw;
+}
+
+#name {
+  margin-left: 2vw;
+  vertical-align: bottom
+}
+
 #toggle_blur_button {
-  /* margin: 5vw;
-    width: 5vw; */
-  /* margin-left: 50%; */
-  text-align: right;
-  /* vertical-align: middle; */
   text-align: left;
   color: #473e3b;
   text-decoration: none;
-  font-size: 8vh;
+  font-size: 3vh;
   border: none;
   background-color: transparent;
   border-color: transparent;
   outline: none;
-  padding: 0px;
-  margin: 0px;
+  padding: none;
+  margin: none;
   margin-left: 2vw;
-  /* to hide the incrementer */
+  vertical-align: bottom;
 }
 
 #write_content {
   width: 74vw;
-  /* margin: auto; */
   margin-left: calc(50% - 2vw - 37vw);
   margin-right: calc(50% + 2vw - 37vw);
-  margin-top: -100vh;
+  margin-top: -200%;
 }
 
 #text_input_container {

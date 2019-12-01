@@ -1,28 +1,33 @@
 // for sequence
-var next = document.getElementById("write_content");
-var first = document.getElementById("how_long");
+var first = document.getElementById("what_topic");
+var second = document.getElementById("how_long");
+var third = document.getElementById("write_content");
 
 first.addEventListener("keyup", function(event) {
   var keyCode = event.which || event.keyCode;
   if (keyCode == 13) {
-    next.style.marginTop = "0px";
-    // first.style.marginTop = "-100vh";
+    second.style.marginTop = "0px";
     first.style.height = "0px";
     first.style.pointerEvents = "none";
     first.style.color = "transparent";
-    move(document.getElementById("time_input").value, updateSpeed);
-    // move(animationDuration, updateSpeed);
+    document.getElementById("time_input").focus();
+    document.getElementById("name").innerHTML = document.getElementById(
+      "topic_input"
+    ).value;
   }
 });
 
-// function moveFirst(event) {
-//     // var code = (event.keyCode ? event.keyCode : event.which);
-//     if (event == 13) {
-//         next.style.marginTop = "0px";
-//         // first.style.marginTop = "-100vh";
-//         first.style.height = "0px";
-//     }
-// }
+second.addEventListener("keyup", function(event) {
+  var keyCode = event.which || event.keyCode;
+  if (keyCode == 13) {
+    third.style.marginTop = "0px";
+    second.style.height = "0px";
+    second.style.pointerEvents = "none";
+    second.style.color = "transparent";
+    document.getElementById("text_input").focus();
+    move(document.getElementById("time_input").value, updateSpeed);
+  }
+});
 
 // For toggling blur
 var button = document.getElementById("toggle_blur_button");
@@ -61,7 +66,8 @@ function move(time, updateSpeed) {
         clearInterval(id);
         i = 0;
         document.getElementById("toggle_blur_button").innerHTML = "Write";
-        document.getElementById("text_input_container").style.WebkitFilter = "blur(0px)";
+        document.getElementById("text_input_container").style.WebkitFilter =
+          "blur(0px)";
         document.getElementById("toggle_blur_button").disabled = false;
         isBlurred = false;
       } else {
