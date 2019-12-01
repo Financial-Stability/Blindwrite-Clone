@@ -21,6 +21,7 @@
 }
 
 #text_input_container {
+    margin-top: 2vh;
     filter: blur(10px);
 }
 
@@ -61,5 +62,6 @@ body {
     width: 1%;
     height: 30px;
     background-color: green;
+    outline: 20px;
     border-radius: 2vh;
   }
