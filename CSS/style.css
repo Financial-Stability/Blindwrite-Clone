@@ -13,7 +13,6 @@
 }
 
 #content {
-    height: 70vh;
     width: 70vw;
     margin: auto;
 }
@@ -23,8 +22,8 @@
 }
 
 #text_input {
-    /* height: 70vh;
-    width: 70vw; */
+    height: 70vh;
+    width: 70vw;
     border: none;
     border-color: transparent;
     background-color: transparent;
@@ -45,7 +44,7 @@ body {
     background-color: #A38E87;
 }
 
-.inline {
+/* .inline {
     display: inline-block;
     vertical-align: middle;
-}
+} */
