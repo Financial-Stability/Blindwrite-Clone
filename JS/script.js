@@ -7,11 +7,11 @@ function toggleBlur() {
     if (isBlurred) {
         blur.style.WebkitFilter = "blur(0px)";
         isBlurred = false;
-        console.log("toggle");
+        // console.log("toggle");
     } else {
         blur.style.WebkitFilter = "blur(10px)";
         isBlurred = true;
-        console.log("toggle");
+        // console.log("toggle");
     }
 }
 
