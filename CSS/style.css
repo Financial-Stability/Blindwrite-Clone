@@ -40,6 +40,7 @@
 body {
     background-color: #E5C69C;
     overflow: hidden;
+    caret-color: green;
     /* text-align: center; */
 }
 
