@@ -22,7 +22,7 @@ var i = 0;
 function move() {
   if (i == 0) {
     i = 1;
-    var elem = document.getElementById("progressBar");
+    var elem = document.getElementById("loadingBar");
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
