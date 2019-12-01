@@ -62,6 +62,7 @@ function move(time, updateSpeed) {
         i = 0;
         document.getElementById("toggle_blur_button").innerHTML = "Write";
         document.getElementById("text_input_container").style.WebkitFilter = "blur(0px)";
+        document.getElementById("toggle_blur_button").disabled = false;
         isBlurred = false;
       } else {
         width += 100 / (time * (60000 / updateSpeed));

@@ -9,6 +9,7 @@
   outline: none;
   resize: none;
   text-align: left;
+  margin-top: 5vh;
   font-size: 8vh;
   width: 110vw;
 }
@@ -34,7 +35,7 @@
 }
 
 #how_long {
-  width: 70vw;
+  width: 74vw;
   margin: auto;
 }
 
