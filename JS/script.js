@@ -5,9 +5,16 @@ var firstButton = document.getElementById("time_input");
 document.addEventListener("keypress", moveFirst(event));
 
 function moveFirst(event) {
-    if (event.which == 13)
+    var code = (e.keyCode ? e.keyCode : e.which);
+    if (code == 13) {
+        console.log("hello");
+    }
+    if (event.which == 13) {
         ext.style.marginTop = "0px";
-    console.log("event");
+    } else {
+        console.log("not called");
+        // alert("hello")
+    }
 }
 
 // For toggling blur
