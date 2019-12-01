@@ -32,12 +32,7 @@ body {
     background-color: #A38E87;
 }
 
-.splitscreen {
-    display:flex;
-}
-.splitscreen .left {
-    flex: 1;
-}
-.splitscreen .right {
-    flex: 1;
+.inline {
+    display: inline-block;
+    vertical-align:top;
 }
