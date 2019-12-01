@@ -1,3 +1,12 @@
+// for sequence
+var next = document.getElementById("write_content");
+var firstButton = document.getElementById("time_input");
+firstButton.addEventListener("keyup", moveFirst);
+
+function moveFirst() {
+    next.style.marginTop("0px");
+}
+
 // For toggling blur
 var button = document.getElementById("toggle_blur_button");
 var blur = document.getElementById("text_input_container");

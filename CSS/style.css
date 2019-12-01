@@ -1,11 +1,16 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
 #time_input {
+    height: ;
     border: none;
     border-color: transparent;
     background-color: transparent;
     outline: none;
     resize: none;
     text-align: left;
-    font-size: 8vw;
+    font-size: 8vh;
+    border-left: 10px solid gray;
 }
 
 #toggle_blur_button {
@@ -14,7 +19,6 @@
     /* margin-left: 50%; */
     text-align: right;
     /* vertical-align: middle; */
-    font-family: 'Josefin Sans', sans-serif;
     text-align: left;
     color: #473E3B;
     text-decoration: none;
@@ -28,6 +32,7 @@
 #write_content {
     width: 70vw;
     margin: auto;
+    margin-top: -100vh;
 }
 
 #how_long {
