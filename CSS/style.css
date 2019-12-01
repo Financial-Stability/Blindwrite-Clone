@@ -17,13 +17,12 @@
 }
 
 #text_input_container {
-    margin: auto;
     /* opacity: 0.5; */
     filter: blur(10px);
 }
 
 #align {
-
+    margin: auto;
 }
 
 body {
@@ -33,6 +32,6 @@ body {
 }
 
 ::selection{
-    color: gray;
+    color: #85756E;
     background-color: #BBB891;
 }
