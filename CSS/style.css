@@ -9,6 +9,9 @@
     resize: none;
     text-align: left;
     font-size: 8vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
     border-left: 10px solid gray;
 }
 

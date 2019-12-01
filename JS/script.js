@@ -1,7 +1,7 @@
 // for sequence
 var next = document.getElementById("write_content");
 var firstButton = document.getElementById("time_input");
-firstButton.addEventListener("keyup", moveFirst);
+firstButton.addEventListener("keypress.13", moveFirst);
 
 function moveFirst() {
     next.style.marginTop = "0px";
