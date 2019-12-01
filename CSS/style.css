@@ -15,7 +15,7 @@
     outline: none;
 }
 
-#content {
+#write_content {
     width: 70vw;
     margin: auto;
 }
@@ -56,13 +56,14 @@ body {
 
 #progressBar {
     width: 100%;
-    border-radius: 2vh;
-    border: 1px solid blue;
+    border-radius: 4vh;
+    border: 3px solid #BBB891;
+    overflow: hidden;
   }
   
 #loadingBar {
     width: 1%;
-    height: 30px;
+    height: 15px;
     background-color: #BBB891;
-    border-radius: 2vh;
+    /* border-radius: 2vh; */
 }
