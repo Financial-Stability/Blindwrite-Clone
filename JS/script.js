@@ -19,7 +19,7 @@ button.onclick = toggleBlur;
 
 // For timer
 var i = 0;
-function move() {
+function move(time) {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("loadingBar");
@@ -30,11 +30,11 @@ function move() {
         clearInterval(id);
         i = 0;
       } else {
-        width++;
+        width+= 100/time;
         elem.style.width = width + "%";
       }
     }
   }
 }
 
-move();
+move(5);

@@ -11,7 +11,7 @@
     width: 5vw; */
     /* margin-left: 50%; */
     text-align: right;
-    /* vertical-align: bottom; */
+    /* vertical-align: middle; */
 }
 
 #content {
@@ -48,7 +48,7 @@ body {
 
 .inline {
     display: inline;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #progresBar {
