@@ -10,6 +10,7 @@ first.addEventListener("keyup", function(event) {
     first.style.height = "0px";
     first.style.pointerEvents = "none";
     first.style.color = "transparent";
+    move(animationDuration, updateSpeed);
   }
 });
 
@@ -51,11 +52,11 @@ function move(time, updateSpeed) {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("loadingBar");
-    var width = 1;
+    var width = 0;
 
     var id = setInterval(frame, updateSpeed);
     function frame() {
-      if (width >= 100) {
+      if (width >= 100) { // 70 vw 
         clearInterval(id);
         i = 0;
       } else {
@@ -65,5 +66,3 @@ function move(time, updateSpeed) {
     }
   }
 }
-
-move(animationDuration, updateSpeed);

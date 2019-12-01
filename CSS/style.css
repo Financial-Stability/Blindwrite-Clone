@@ -81,15 +81,17 @@ div {
 #progressBar {
   margin-top: 2vh;
   margin-bottom: 2vh;
-  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 99%;
   border-radius: 4vh;
   border: 3px solid #bbb891;
   overflow: hidden;
 }
 
 #loadingBar {
-  width: 1%;
+  width: 0%;
   height: 15px;
   background-color: #bbb891;
-  /* border-radius: 2vh; */
+  border-radius: 2vh;
 }
