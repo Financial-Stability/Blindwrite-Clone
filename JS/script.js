@@ -1,7 +1,8 @@
 var button = document.getElementById("toggle_blur");
+var blur = document.getElementById("text_input_container");
 
 function doMe() {
-    alert("hi");
+    blur.style.blur("0px");
 }
 
 

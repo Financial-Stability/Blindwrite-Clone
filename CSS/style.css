@@ -31,3 +31,13 @@ body {
     color: #85756E;
     background-color: #A38E87;
 }
+
+.splitscreen {
+    display:flex;
+}
+.splitscreen .left {
+    flex: 1;
+}
+.splitscreen .right {
+    flex: 1;
+}
