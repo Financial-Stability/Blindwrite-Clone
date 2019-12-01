@@ -20,7 +20,6 @@ function toggleBlur() {
 button.onclick = toggleBlur;
 
 // For timer
-
 var updateSpeed = 5; // The lower the number, the smoother the animation
 var animationDuration = 2; // Set how long the bar will take to move across screen
 var i = 0;
