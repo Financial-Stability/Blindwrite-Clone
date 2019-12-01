@@ -1,5 +1,13 @@
 #time_input {
-    
+    height: 70vh;
+    width: 70vw;
+    border: none;
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+    text-align: left;
+    font-size: 3vw;
 }
 
 #toggle_blur_button {
@@ -20,6 +28,11 @@
 }
 
 #write_content {
+    width: 70vw;
+    margin: auto;
+}
+
+#how_long {
     width: 70vw;
     margin: auto;
 }
