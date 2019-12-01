@@ -19,7 +19,7 @@ first.addEventListener("keyup", function(event) {
 second.addEventListener("keyup", function(event) {
   var keyCode = event.which || event.keyCode;
   if (keyCode == 13) {
-    third.style.marginTop = "5vh";ß
+    third.style.marginTop = "5vh";
     second.style.height = "0px";
     second.style.pointerEvents = "none";
     second.style.color = "transparent";
