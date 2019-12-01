@@ -35,6 +35,7 @@
 }
 
 #how_long {
+    vertical-align: middle;
     width: 70vw;
     margin: auto;
 }

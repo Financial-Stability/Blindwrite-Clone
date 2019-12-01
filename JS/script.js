@@ -1,6 +1,6 @@
 // for sequence
 var next = document.getElementById("write_content");
-var firstButton = document.getElementById("time_input");
+var first = document.getElementById("how_long");
 
 // firstButton.addEventListener("change", moveFirst());
 
@@ -8,6 +8,7 @@ function moveFirst() {
     var code = (event.keyCode ? event.keyCode : event.which);
     if (code == 13) {
         next.style.marginTop = "0px";
+        first.style.marginTop = "-100vh";
         // console.log("hello");
     }
     // if (event.which == 13) {
