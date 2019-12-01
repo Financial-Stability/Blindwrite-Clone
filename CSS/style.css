@@ -7,9 +7,10 @@
 }
 
 #toggle_blur_button {
-    margin: 5vw;
-    width: 5vw;
+    /* margin: 5vw;
+    width: 5vw; */
     text-align: right;
+    vertical-align: middle;
 }
 
 #content {
@@ -45,6 +46,17 @@ body {
 }
 
 .inline {
-    display: inline-block;
+    display: inline;
     /* vertical-align: middle; */
 }
+
+#progresBar {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #loadingBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+  }
