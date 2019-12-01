@@ -1,5 +1,5 @@
 // For toggling blur
-var button = document.getElementById("toggle_blur");
+var button = document.getElementById("toggle_blur_button");
 var blur = document.getElementById("text_input_container");
 var isBlurred = true;
 
