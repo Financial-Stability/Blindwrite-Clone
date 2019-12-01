@@ -11,16 +11,15 @@ first.addEventListener("keyup", function(event) {
     first.style.pointerEvents = "none";
     first.style.color = "transparent";
     document.getElementById("time_input").focus();
-    document.getElementById("name").innerHTML = document.getElementById(
-      "topic_input"
-    ).value+" ";
+    document.getElementById("name").innerHTML =
+      document.getElementById("topic_input").value + " ";
   }
 });
 
 second.addEventListener("keyup", function(event) {
   var keyCode = event.which || event.keyCode;
   if (keyCode == 13) {
-    third.style.marginTop = "5vh";
+    third.style.marginTop = "5vh";ß
     second.style.height = "0px";
     second.style.pointerEvents = "none";
     second.style.color = "transparent";

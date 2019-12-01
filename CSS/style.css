@@ -58,20 +58,20 @@
 }
 
 input {
-  color: #586F7C;
+  color: #586f7c;
 }
 
 label {
-  color: #586F7C;
+  color: #586f7c;
 }
 
 ::placeholder {
-  color: #586F7C;
+  color: #586f7c;
 }
 
 #toggle_blur_button {
   text-align: left;
-  color: #586F7C;
+  color: #586f7c;
   text-decoration: none;
   height: 5vh;
   font-size: 5vh;
@@ -106,14 +106,14 @@ label {
   text-align: left;
   font-size: 3vw;
   padding: 2vw;
-  color: #DCE1DE;
+  color: #dce1de;
 }
 
 body {
   background-color: #000000;
   overflow: hidden;
-  caret-color: #DCE1DE;
-  color: #DCE1DE;
+  caret-color: #dce1de;
+  color: #dce1de;
 }
 
 div {
@@ -121,9 +121,9 @@ div {
 }
 
 ::selection {
-  color: #DCE1DE;
+  color: #dce1de;
   opacity: 20%;
-  background-color: #DCE1DE;
+  background-color: #dce1de;
 }
 
 .inline {
@@ -138,13 +138,13 @@ div {
   margin-right: 2vw;
   width: calc(99% - 4vw);
   border-radius: 4vh;
-  border: 1px solid #586F7C;
+  border: 1px solid #586f7c;
   overflow: hidden;
 }
 
 #loadingBar {
   width: 0%;
   height: 15px;
-  background-color: #DCE1DE;
+  background-color: #dce1de;
   border-radius: 2vh;
 }
