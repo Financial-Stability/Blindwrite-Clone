@@ -31,11 +31,11 @@ function move(time) {
         clearInterval(id);
         i = 0;
       } else {
-        width += 100/(time*updateSpeed*1000);
+        width += 100/(time*(1000/updateSpeed));
         elem.style.width = width + "%";
       }
     }
   }
 }
 
-move(5);
+move(1);

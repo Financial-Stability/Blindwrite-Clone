@@ -5,12 +5,13 @@
     text-align: right;
     /* vertical-align: middle; */
     font-family: 'Josefin Sans', sans-serif;
-    /* text-align: left; */
+    text-align: left;
     color: #473E3B;
     text-decoration: none;
     font-size: 4vh;
     border: none;
     background-color: transparent;
+    border-color: transparent;
 }
 
 #content {
