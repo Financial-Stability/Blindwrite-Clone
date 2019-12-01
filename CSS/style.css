@@ -3,7 +3,7 @@
     text-align: left;
     color: #473E3B;
     /* position: relative; */
-    padding-left: 15vw;
+    padding-left: 14vw;
 }
 #text_input {
     height: 70vh;
@@ -33,5 +33,5 @@ body {
 
 ::selection{
     color: #85756E;
-    background-color: #BBB891;
+    background-color: #A63D40;
 }
