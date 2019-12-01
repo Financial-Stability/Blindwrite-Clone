@@ -1,90 +1,90 @@
 * {
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #time_input {
-    border: none;
-    border-color: transparent;
-    background-color: transparent;
-    outline: none;
-    resize: none;
-    text-align: left;
-    font-size: 8vh;
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  text-align: left;
+  font-size: 8vh;
 }
 
 #toggle_blur_button {
-    /* margin: 5vw;
+  /* margin: 5vw;
     width: 5vw; */
-    /* margin-left: 50%; */
-    text-align: right;
-    /* vertical-align: middle; */
-    text-align: left;
-    color: #473E3B;
-    text-decoration: none;
-    font-size: 8vh;
-    border: none;
-    background-color: transparent;
-    border-color: transparent;
-    outline: none;
+  /* margin-left: 50%; */
+  text-align: right;
+  /* vertical-align: middle; */
+  text-align: left;
+  color: #473e3b;
+  text-decoration: none;
+  font-size: 8vh;
+  border: none;
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
 }
 
 #write_content {
-    width: 70vw;
-    margin: auto;
-    margin-top: -100vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: -100vh;
 }
 
 #how_long {
-    width: 70vw;
-    margin: auto;
+  width: 70vw;
+  margin: auto;
 }
 
 #text_input_container {
-    /* margin-top: 5vh; */
-    filter: blur(10px);
+  /* margin-top: 5vh; */
+  filter: blur(10px);
 }
 
 #text_input {
-    height: 70vh;
-    width: 70vw;
-    border: none;
-    border-color: transparent;
-    background-color: transparent;
-    outline: none;
-    resize: none;
-    text-align: left;
-    font-size: 3vw;
+  height: 70vh;
+  width: 70vw;
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  text-align: left;
+  font-size: 3vw;
 }
 
 body {
-    background-color: #E5C69C;
-    overflow: hidden;
-    caret-color: green;
-    /* text-align: center; */
+  background-color: #e5c69c;
+  overflow: hidden;
+  caret-color: green;
+  /* text-align: center; */
 }
 
-::selection{
-    color: #85756E;
-    background-color: #A38E87;
+::selection {
+  color: #85756e;
+  background-color: #a38e87;
 }
 
 .inline {
-    display: inline;
-    vertical-align: middle;
+  display: inline;
+  vertical-align: middle;
 }
 
 #progressBar {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: 100%;
-    border-radius: 4vh;
-    border: 3px solid #BBB891;
-    overflow: hidden;
-  }
-  
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 100%;
+  border-radius: 4vh;
+  border: 3px solid #bbb891;
+  overflow: hidden;
+}
+
 #loadingBar {
-    width: 1%;
-    height: 15px;
-    background-color: #BBB891;
-    /* border-radius: 2vh; */
+  width: 1%;
+  height: 15px;
+  background-color: #bbb891;
+  /* border-radius: 2vh; */
 }

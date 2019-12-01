@@ -3,11 +3,11 @@ var next = document.getElementById("write_content");
 var first = document.getElementById("how_long");
 
 first.addEventListener("keyup", function(event) {
-    if (event == 13) {
-        next.style.marginTop = "0px";
-        // first.style.marginTop = "-100vh";
-        first.style.height = "0px";
-    }
+  if (event == 13) {
+    next.style.marginTop = "0px";
+    // first.style.marginTop = "-100vh";
+    first.style.height = "0px";
+  }
 });
 
 // function moveFirst(event) {
@@ -25,17 +25,17 @@ var blur = document.getElementById("text_input_container");
 var isBlurred = true;
 
 function toggleBlur() {
-    if (isBlurred) {
-        blur.style.WebkitFilter = "blur(0px)";
-        button.innerHTML = "Write";
-        isBlurred = false;
-        // console.log("toggle");
-    } else {
-        blur.style.WebkitFilter = "blur(10px)";
-        button.innerHTML = "BlindWrite";
-        isBlurred = true;
-        // console.log("toggle");
-    }
+  if (isBlurred) {
+    blur.style.WebkitFilter = "blur(0px)";
+    button.innerHTML = "Write";
+    isBlurred = false;
+    // console.log("toggle");
+  } else {
+    blur.style.WebkitFilter = "blur(10px)";
+    button.innerHTML = "BlindWrite";
+    isBlurred = true;
+    // console.log("toggle");
+  }
 }
 
 button.onclick = toggleBlur;
@@ -56,7 +56,7 @@ function move(time, updateSpeed) {
         clearInterval(id);
         i = 0;
       } else {
-        width += 100/(time*(1000/updateSpeed));
+        width += 100 / (time * (1000 / updateSpeed));
         elem.style.width = width + "%";
       }
     }
