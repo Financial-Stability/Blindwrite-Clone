@@ -4,8 +4,8 @@ var firstButton = document.getElementById("time_input");
 
 firstButton.addEventListener("keypress", moveFirst(event));
 
-function moveFirst(key) {
-    if (key.which == 13)
+function moveFirst(event) {
+    if (event.which == 13)
         ext.style.marginTop = "0px";
     console.log("event");
 }
