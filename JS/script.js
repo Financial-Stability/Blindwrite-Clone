@@ -2,20 +2,20 @@
 var next = document.getElementById("write_content");
 var firstButton = document.getElementById("time_input");
 
-firstButton.addEventListener("change", moveFirst());
+// firstButton.addEventListener("change", moveFirst());
 
 function moveFirst() {
-    // var code = (event.keyCode ? event.keyCode : event.which);
-    // if (code == 13) {
-    //     console.log("hello");
-    // }
+    var code = (event.keyCode ? event.keyCode : event.which);
+    if (code == 13) {
+        next.style.marginTop = "0px";
+        // console.log("hello");
+    }
     // if (event.which == 13) {
     //     next.style.marginTop = "0px";
     // } else {
     //     console.log("not called");
     //     // alert("hello")
     // }
-    next.style.marginTop = "0px";
 }
 
 // For toggling blur
