@@ -2,7 +2,7 @@
 var next = document.getElementById("write_content");
 var firstButton = document.getElementById("time_input");
 
-firstButton.addEventListener("keypress", moveFirst(event));
+document.addEventListener("keypress", moveFirst(event));
 
 function moveFirst(event) {
     if (event.which == 13)
