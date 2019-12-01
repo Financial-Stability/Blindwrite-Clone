@@ -10,14 +10,7 @@ function moveFirst(event) {
         next.style.marginTop = "0px";
         // first.style.marginTop = "-100vh";
         first.style.height = "0px";
-        // console.log("hello");
     }
-    // if (event.which == 13) {
-    //     next.style.marginTop = "0px";
-    // } else {
-    //     console.log("not called");
-    //     // alert("hello")
-    // }
 }
 
 // For toggling blur
