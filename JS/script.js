@@ -1,8 +1,8 @@
 var button = document.getElementById("toggle_blur");
 
-function() {
+function doMe() {
     alert("hi");
 }
 
 
-button.onclick = function;
+button.onclick = doMe;
