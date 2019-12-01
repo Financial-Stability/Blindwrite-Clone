@@ -56,7 +56,7 @@ body {
 
 #progressBar {
     width: 100%;
-    background-color: grey;
+    border-radius: 2vh;
     outline: 2px dashed blue;
   }
   
