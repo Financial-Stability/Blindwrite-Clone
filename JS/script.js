@@ -1,10 +1,11 @@
 // for sequence
 var next = document.getElementById("write_content");
 var firstButton = document.getElementById("time_input");
-firstButton.addEventListener("keypress.13", moveFirst);
+firstButton.addEventListener("keypress", moveFirst(event.which));
 
-function moveFirst() {
-    next.style.marginTop = "0px";
+function moveFirst(key) {
+    if (key == 13)
+        ext.style.marginTop = "0px";
 }
 
 // For toggling blur
