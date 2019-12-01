@@ -6,12 +6,12 @@ var isBlurred = true;
 function toggleBlur() {
     if (isBlurred) {
         blur.style.WebkitFilter = "blur(0px)";
-        blur.innerHTML("Write");
+        button.innerHTML("Write");
         isBlurred = false;
         // console.log("toggle");
     } else {
         blur.style.WebkitFilter = "blur(10px)";
-        blur.innerHTML("BlindWrite");
+        button.innerHTML("BlindWrite");
         isBlurred = true;
         // console.log("toggle");
     }
@@ -23,7 +23,7 @@ button.onclick = toggleBlur;
 
 var updateSpeed = 5; // The lower the number, the smoother the animation
 var animationDuration = 2; // Set how long the bar will take to move across screen
-var i = 0; 
+var i = 0;
 function move(time, updateSpeed) {
   if (i == 0) {
     i = 1;
@@ -43,4 +43,4 @@ function move(time, updateSpeed) {
   }
 }
 
-move(time, animationDuration);
+move(animationDuration, updateSpeed);
