@@ -1,6 +1,8 @@
 #name {
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
+    position: relative;
+    padding-left: 15vw;
 }
 #text_input {
     height: 70vh;
