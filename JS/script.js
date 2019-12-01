@@ -8,7 +8,7 @@ function moveFirst() {
     var code = (event.keyCode ? event.keyCode : event.which);
     if (code == 13) {
         next.style.marginTop = "0px";
-        first.style.marginTop = "-100vh";
+        // first.style.marginTop = "-100vh";
         first.style.height = "0px";
         // console.log("hello");
     }
