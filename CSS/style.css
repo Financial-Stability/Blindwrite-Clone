@@ -57,7 +57,7 @@ body {
 #progressBar {
     width: 100%;
     border-radius: 2vh;
-    outline: 2px dashed blue;
+    border: 1px solid blue;
   }
   
 #loadingBar {
