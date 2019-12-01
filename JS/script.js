@@ -10,7 +10,8 @@ first.addEventListener("keyup", function(event) {
     first.style.height = "0px";
     first.style.pointerEvents = "none";
     first.style.color = "transparent";
-    move(animationDuration, updateSpeed);
+    move(document.getElementById("time_input").value, updateSpeed);
+    // move(animationDuration, updateSpeed);
   }
 });
 
@@ -46,7 +47,7 @@ button.onclick = toggleBlur;
 
 // For Progress Bar
 var updateSpeed = 5; // The lower the number, the smoother the animation
-var animationDuration = 2; // Set how long the bar will take to move across screen
+// var animationDuration = 2; // Set how long the bar will take to move across screen
 var i = 0;
 function move(time, updateSpeed) {
   if (i == 0) {
@@ -56,11 +57,14 @@ function move(time, updateSpeed) {
 
     var id = setInterval(frame, updateSpeed);
     function frame() {
-      if (width >= 100) { // 70 vw 
+      if (width >= 100) {
         clearInterval(id);
         i = 0;
+        document.getElementById("toggle_blur_button").innerHTML = "Write";
+        document.getElementById("text_input_container").style.WebkitFilter = "blur(0px)";
+        isBlurred = false;
       } else {
-        width += 100 / (time * (1000 / updateSpeed));
+        width += 100 / (time * (60000 / updateSpeed));
         elem.style.width = width + "%";
       }
     }

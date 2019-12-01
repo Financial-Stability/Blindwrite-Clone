@@ -10,6 +10,7 @@
   resize: none;
   text-align: left;
   font-size: 8vh;
+  width: 110vw;
 }
 
 #toggle_blur_button {
@@ -29,6 +30,7 @@
   padding: 0px;
   margin: 0px;
   margin-left: 2vw;
+  /* to hide the incrementer */
 }
 
 #how_long {
