@@ -2,7 +2,7 @@
 var next = document.getElementById("write_content");
 var first = document.getElementById("how_long");
 
-first.addEventListener("keyup", moveFirst(event) {
+first.addEventListener("keyup", function(event) {
     if (event == 13) {
         next.style.marginTop = "0px";
         // first.style.marginTop = "-100vh";
