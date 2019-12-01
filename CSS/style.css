@@ -57,6 +57,7 @@ body {
 #progresBar {
     width: 100%;
     background-color: grey;
+    outline: 2px dashed blue;
   }
   
 #loadingBar {
@@ -64,5 +65,4 @@ width: 1%;
 height: 30px;
 background-color: #BBB891;
 border-radius: 2vh;
-outline: 2px dashed blue;
 }
