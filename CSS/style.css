@@ -2,9 +2,9 @@
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
     color: #473E3B;
-    width: 60vw;
+    width: 20vw;
     /* position: relative; */
-    padding-left: 14vw;
+    /* padding-left: 14vw; */
 }
 
 #toggle_blur_button {
@@ -29,7 +29,7 @@
     background-color: transparent;
     outline: none;
     resize: none;
-    /* padding: 10vh, 10vw; */
+    text-align: left;
     font-size: 3vw;
 }
 
@@ -44,7 +44,7 @@ body {
     background-color: #A38E87;
 }
 
-/* .inline {
+.inline {
     display: inline-block;
     vertical-align: middle;
-} */
+}
