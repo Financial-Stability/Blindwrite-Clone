@@ -1,5 +1,18 @@
 #text_input {
-    height: 100%;
-    width: 100%;
-    margin: auto;
+    height: 70vh;
+    width: 70vw;
+    /* margin: auto; */
+    border: none;
+    border-color:transparent;
+    resize: none;
+    autofocus: true;
+}
+
+body {
+    overflow: hidden;
+    text-align: center;
+}
+
+#text_input_container {
+    margin:auto;
 }
