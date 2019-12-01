@@ -9,8 +9,8 @@
 #toggle_blur_button {
     /* margin: 5vw;
     width: 5vw; */
-    text-align: left;
-    vertical-align: middle;
+    margin-left: auto;
+    /* vertical-align: middle; */
 }
 
 #content {
