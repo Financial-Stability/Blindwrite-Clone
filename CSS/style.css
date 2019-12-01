@@ -21,10 +21,6 @@
     filter: blur(10px);
 }
 
-#align {
-    margin: auto;
-}
-
 body {
     background-color: #E5C69C;
     overflow: hidden;
@@ -33,5 +29,5 @@ body {
 
 ::selection{
     color: #85756E;
-    background-color: #A63D40;
+    background-color: #473E3B;
 }
