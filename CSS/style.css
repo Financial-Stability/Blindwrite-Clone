@@ -1,8 +1,8 @@
 #name {
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
-    position: relative;
-    padding-left: 15vw;
+    /* position: relative; */
+    /* padding-left: 15vw; */
 }
 #text_input {
     height: 70vh;
@@ -22,8 +22,17 @@
     filter: blur(10px);
 }
 
+#align {
+
+}
+
 body {
     background-color: #E5C69C;
     overflow: hidden;
     text-align: center;
+}
+
+::selection{
+    color: gray;
+    background-color: #BBB891;
 }
