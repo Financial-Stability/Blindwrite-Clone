@@ -2,19 +2,29 @@
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
     color: #473E3B;
-    width: 70%;
+    width: 60vw;
     /* position: relative; */
     padding-left: 14vw;
 }
 
-#toggle_blur {
+#toggle_blur_button {
     margin: 5vw;
     width: 5vw;
 }
 
-#text_input {
+#content {
     height: 70vh;
     width: 70vw;
+    margin: auto;
+}
+
+#text_input_container {
+    filter: blur(10px);
+}
+
+#text_input {
+    /* height: 70vh;
+    width: 70vw; */
     border: none;
     border-color: transparent;
     background-color: transparent;
@@ -24,14 +34,10 @@
     font-size: 3vw;
 }
 
-#text_input_container {
-    filter: blur(10px);
-}
-
 body {
     background-color: #E5C69C;
     overflow: hidden;
-    text-align: center;
+    /* text-align: center; */
 }
 
 ::selection{

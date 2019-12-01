@@ -2,7 +2,7 @@ var button = document.getElementById("toggle_blur");
 var blur = document.getElementById("text_input_container");
 var isBlurred = true;
 
-function doMe() {
+function toggleBlur() {
     if (isBlurred) {
         blur.style.WebkitFilter = "blur(0px)";
         isBlurred = false;
@@ -12,5 +12,4 @@ function doMe() {
     }
 }
 
-
-button.onclick = doMe;
+button.onclick = toggleBlur;
