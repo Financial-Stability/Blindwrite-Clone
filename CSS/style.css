@@ -1,7 +1,6 @@
 #name {
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
-    /* color: red; */
 }
 #text_input {
     height: 70vh;
@@ -13,7 +12,6 @@
     resize: none;
     padding: 10vh, 10vw;
     font-size: 3vw;
-    /* color: red; */
 }
 
 #text_input_container {
