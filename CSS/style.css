@@ -61,4 +61,5 @@ body {
     width: 1%;
     height: 30px;
     background-color: green;
+    border-radius: 2vh;
   }

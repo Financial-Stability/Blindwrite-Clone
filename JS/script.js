@@ -6,12 +6,12 @@ var isBlurred = true;
 function toggleBlur() {
     if (isBlurred) {
         blur.style.WebkitFilter = "blur(0px)";
-        button.innerHTML("Write");
+        button.innerHTML() = "Write";
         isBlurred = false;
         // console.log("toggle");
     } else {
         blur.style.WebkitFilter = "blur(10px)";
-        button.innerHTML("BlindWrite");
+        button.innerHTML() = "BlindWrite";
         isBlurred = true;
         // console.log("toggle");
     }
@@ -19,7 +19,7 @@ function toggleBlur() {
 
 button.onclick = toggleBlur;
 
-// For timer
+// For Progress Bar
 var updateSpeed = 5; // The lower the number, the smoother the animation
 var animationDuration = 2; // Set how long the bar will take to move across screen
 var i = 0;
