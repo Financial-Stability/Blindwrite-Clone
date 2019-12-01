@@ -1,11 +1,16 @@
+# {
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+}
 #text_input {
-    height: 70vh;
-    width: 70vw;
+    height: 100vh;
+    width: 100vw;
     border: none;
     border-color: transparent;
     background-color: transparent;
     outline: none;
     resize: none;
+    padding: 10vh, 10vw;
     font-size: 3vw;
     /* color: red; */
 }
