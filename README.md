@@ -10,8 +10,9 @@ Set a topic, start a timer, write with this app.
 * Set a topic
 * Set a timer
 * Write until timer ends and text is unblurred
-* Click "Blindwrite" to blur text again if you would like to continue writing.
-* Click "Write" to unblur text
+* Once timer is done
+  * Click "Blindwrite" to blur text again if you would like to continue writing.
+  * Click "Write" to unblur text
 
 ## Preview
 **Writing about Chosen Topic. Bar at the top represents a timer, upon completion text is unblurred.**
