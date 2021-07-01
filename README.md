@@ -19,5 +19,6 @@ Set a topic, start a timer, write with this app.
 
 Writing about Chosen Topic. Bar at the top represents a timer, upon completion text is unblurred.
 
-![Writing about Chosen Topic. Bar at the top represents a timer, upon completion text is unblurred](https://raw.githubusercontent.com/KoyaS/Blindwrite-Clone/master/blindWrite.png)
+<!-- ![Writing about Chosen Topic. Bar at the top represents a timer, upon completion text is unblurred](https://raw.githubusercontent.com/KoyaS/Blindwrite-Clone/master/blindWrite.png) -->
 
+https://user-images.githubusercontent.com/53503018/124055845-4483e000-d9ea-11eb-9d3f-a12a10d7c74a.mov
