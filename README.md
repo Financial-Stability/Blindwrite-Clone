@@ -25,5 +25,5 @@ https://user-images.githubusercontent.com/53503018/124055845-4483e000-d9ea-11eb-
 
 ## References
 
-1. <a name="^1"></a>[Original app](https://blindwrite.herokuapp.com/) is no longer available
+1. <a name="^1"></a>The [original app](https://blindwrite.herokuapp.com/) is no longer available
 2. <a name="^2"></a>The app has since updated to [Blurt](https://blurt.app/).
