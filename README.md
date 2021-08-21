@@ -2,7 +2,7 @@
 
 Try it out [here](https://financial-stability.github.io/Blindwrite-Clone/)!
 
-Clone of BlindWrite<sup>[1](#^1)</sup> (original app no longer available<sup>[2](#^2)</sup>).
+Clone of BlindWrite<sup>[1](#^1)</sup>.
 A space to jot down thoughts, but blurring what you've already written to (hopefully) stop yourself from constantly self-editing.
 Set a topic, start a timer, write with this app.
 
@@ -25,5 +25,5 @@ https://user-images.githubusercontent.com/53503018/124055845-4483e000-d9ea-11eb-
 
 ## References
 
-1. <a name="^1"></a>The [original app](https://blindwrite.herokuapp.com/) is no longer available
-2. <a name="^2"></a>The app has since updated to [Blurt](https://blurt.app/).
+1. <a name="^1"></a>The [original app](https://blindwrite.herokuapp.com/) is no longer available.
+> Update: <a name="^2"></a>The app has since updated to [Blurt](https://blurt.app/).
