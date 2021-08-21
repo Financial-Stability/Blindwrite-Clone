@@ -6,6 +6,8 @@ Clone of BlindWrite<sup>[1](#^1)</sup>.
 A space to jot down thoughts, but blurring what you've already written to (hopefully) stop yourself from constantly self-editing.
 Set a topic, start a timer, write with this app.
 
+> Note: If the deployment is ever down, you can download this repo and run the tool locally from index.html
+
 ## Instructions
 1. Set a topic
 2. Set a timer
